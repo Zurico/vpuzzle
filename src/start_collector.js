@@ -6,16 +6,16 @@
  * @author Zuri Pabon <zpabon@itrsgroup.com>
  * @author (Each contributor appends a line here)
  */
-import WrapError from '../lib_js/util_js/error';
+import WrapError from '../lib/util_js/error';
 import {
     retryOnConflict,
     createStream,
     setStreamRepository,
     publishEventToStream
-} from '../lib_js/valo_sdk_js';
+} from '../lib/valo_sdk_js';
 import {
     datetimeStringToJSON
-} from '../lib_js/util_js/datetime';
+} from '../lib/util_js/datetime';
 import sensors from './sensors';
 
 ////////////////////////////////////////////////////////////////////////////////
