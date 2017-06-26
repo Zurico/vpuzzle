@@ -1,0 +1,26 @@
+{
+  "name": "sensors-valo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/main.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "eventsource": "^0.2.2",
+    "lodash": "^4.17.4",
+    "rx-lite": "^4.0.8",
+    "node-dht-sensor": "latest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
