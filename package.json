@@ -5,7 +5,8 @@
   "main": "bin/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/main.js"
+    "start": "node ./bin/main.js",
+    "start:dev": "babel-node bin/main.js"
   },
   "author": "",
   "license": "",
